@@ -1,0 +1,13 @@
+{
+  "name": "fb-connector",
+  "version": "0.1.0",
+  "description": "Formbay connector — read project data from partner web apps (e.g. the Pylon web app, app.getpylon.com) and push projects into the Formbay job queue, or look up existing Formbay jobs, via the fb-job-push MCP server.",
+  "author": {
+    "name": "Formbay Trading Pty Ltd",
+    "email": "support@formbay.com.au"
+  },
+  "homepage": "https://github.com/formbay/ai-connectors",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": ["formbay", "fb-connector", "pylon", "getpylon", "solar", "stc"],
+  "mcpServers": "./.mcp.json"
+}
