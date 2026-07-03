@@ -1,8 +1,14 @@
 {
   "mcpServers": {
     "fb-job-push": {
-      "type": "http",
-      "url": "https://mcp.13-236-107-181.nip.io/mcp"
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://mcp.13-236-107-181.nip.io/mcp",
+        "--static-oauth-client-info",
+        "{\"client_id\":\"claude-XF4XAKGs3B2ruzHkhivp0cBupzVZX0MP\"}"
+      ]
     }
   }
 }
